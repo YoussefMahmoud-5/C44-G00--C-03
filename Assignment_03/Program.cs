@@ -152,40 +152,38 @@ namespace Assignment_03
 
             #region 12- Write a program to create a Simple Calculator
             //double num1, num2;
-            //char c;
+            //char _operator;
             //Console.WriteLine($"Enter two numbers and an operator ('+', '-', '*', '/') (: ");
             //Console.Write("Enter first number : ");
             //num1 = double.Parse(Console.ReadLine());
             //Console.Write("Enter second number : ");
             //num2 = double.Parse(Console.ReadLine());
             //Console.Write("Enter operator : ");
-            //c = char.Parse(Console.ReadLine());
-            //if (c == '-')
+            //_operator = char.Parse(Console.ReadLine());
+            //switch (_operator)
             //{
-            //    Console.WriteLine($"{num1} - {num2} = {num1 - num2}");
-            //}
-            //else if (c == '+')
-            //{
-            //    Console.WriteLine($"{num1} + {num2} = {num1 + num2}");
-            //}
-            //else if (c == '*')
-            //{
-            //    Console.WriteLine($"{num1} * {num2} = {num1 * num2}");
-            //}
-            //else if (c == '/')
-            //{
-            //    if (num2 == 0)
-            //    {
-            //        Console.WriteLine("we can't divid by zero !");
-            //    }
-            //    else
-            //    {
-            //        Console.WriteLine($"{num1} / {num2} = {num1 / num2}");
-            //    }
-            //}
-            //else
-            //{
-            //    Console.WriteLine("Invalid operator! Please enter one of: ('+', '-', '*', '/') ! ): ");
+            //    case '-':
+            //        Console.WriteLine($"{num1} - {num2} = {num1 - num2}");
+            //        break;
+            //    case '+':
+            //        Console.WriteLine($"{num1} + {num2} = {num1 + num2}");
+            //        break;
+            //    case '*':
+            //        Console.WriteLine($"{num1} * {num2} = {num1 * num2}");
+            //        break;
+            //    case '/':
+            //        if (num2 == 0)
+            //        {
+            //            Console.WriteLine("we can't divid by zero !");
+            //        }
+            //        else
+            //        {
+            //            Console.WriteLine($"{num1} / {num2} = {num1 / num2}");
+            //        }
+            //        break;
+            //    default:
+            //        Console.WriteLine("Invalid operator! Please enter one of: ('+', '-', '*', '/') ! ): ");
+            //        break;
             //}
             #endregion
         }
